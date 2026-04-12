@@ -359,6 +359,7 @@ const DevModeOverlay = {
   enable() {
     this.isDevModeOn = true;
     this.selectedElement = null;
+    document.body.style.cursor = 'crosshair';
   },
 
   disable() {
@@ -368,6 +369,7 @@ const DevModeOverlay = {
     this.hideHighlight();
     this.hideRedlines();
     this.closePanel();
+    document.body.style.cursor = 'auto';
   },
 
   destroy() {

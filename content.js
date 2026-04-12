@@ -30,7 +30,6 @@
   }
 
   function enableDevMode() {
-    if (isDevModeActive) return;
     isDevModeActive = true;
     if (window.DevModeOverlay) {
       window.DevModeOverlay.enable();
@@ -38,7 +37,6 @@
   }
 
   function disableDevMode() {
-    if (!isDevModeActive) return;
     isDevModeActive = false;
     currentHoveredElement = null;
     if (window.DevModeOverlay) {
