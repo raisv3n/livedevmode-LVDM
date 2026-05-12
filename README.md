@@ -2,6 +2,8 @@
 
 A DevTools-style inspector overlay for Chrome that works on any website. Inspect elements, view measurements, spacing, typography, colors, and generate CSS/Tailwind code snippets.
 
+> **Status:** This project is still **experimental and in beta**. Features may be unstable or change significantly.
+
 ## Features
 
 - **Toggle LVDM** - Click the extension icon or use keyboard shortcut
